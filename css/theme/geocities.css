@@ -1,0 +1,80 @@
+:root {
+--geocities-font: Times, "Times New Roman", serif
+}
+    
+
+
+.reveal h1 {
+    color: #00ff00;
+    text-transform: none;
+    font-family: var(--geocities-font);
+    font-weight: normal;
+}
+
+.reveal h2 {
+    color: #ff0000;
+    text-transform: none;
+    font-family: var(--geocities-font);
+    font-weight:normal;
+}
+
+.reveal h3 {
+    color: #0000ff;
+    text-transform: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.reveal p {
+    color:aqua;
+    font-family:'Courier New', Courier, monospace
+}
+
+.reveal li {
+    font-family:cursive
+}
+
+.floatLeft {
+    position:absolute;
+    z-index: 100;
+    top:10%;
+    left: -15%;
+}
+
+.controls-arrow {
+    color:#ff0000
+}
+
+
+
+
+.marquee {
+			display: flex ;
+			overflow: hidden ;
+			white-space: nowrap ;
+			width: 800px ;
+		}
+		.marquee__item {
+			animation-duration: 4s ;
+			animation-iteration-count: infinite ;
+			animation-name: marquee-content ;
+			animation-timing-function: linear ;
+			padding: 5px 15px 5px 15px ;
+            text-decoration: underline;
+            font-family: var(--geocities-font);
+            color: yellow
+		}
+		
+
+		/**
+		* BOTH of the marquee items are going to be translating left at the same time.
+		* And, once each of them has translated to -100%, they will both snap back into
+		* place, making it seem as if they are continuously scrolling.
+		*/
+		@keyframes marquee-content {
+			from {
+				transform: translateX( 0% );
+			}
+			to {
+				transform: translateX( -100% );
+			}
+		}
