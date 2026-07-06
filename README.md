@@ -7,7 +7,7 @@
 
   And they all just want to sell you things or take your attention?
   
-  I am not nostalgic for all of the old Internet
+  I am not nostalgic for all of the old Internet.
 
   But the cool thing about the "old Internet" is that if you visited a site, you could be reasonably sure that the content on it was created by a person, and if the person was trying to sell you something, you would know, because they would say "please buy this thing that I am selling."
 
@@ -40,11 +40,10 @@
   
   Some easy switches
 
-  ┌─────────────┬───────────────┬─────────┐
-  │    Gmail    │    Google     │ Chrome  │
-  ├─────────────┼───────────────┼─────────┤
-  │ Proton Mail │ Qwant or Kagi │ Vivaldi │
-  └─────────────┴───────────────┴─────────┘
+| Gmail   | Google  | Chrome  |
+|---------|---------|-----------------------|
+| Proton Mail  | Qwant or Kagi   | Vivaldi  |
+
 
   More here: https://disconnect.blog/getting-off-us-tech-a-guide/
   
