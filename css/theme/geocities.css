@@ -151,3 +151,12 @@ td {
 .rainbow-letters span:nth-child(10n + 8){
   color: #ffc107;
 }
+
+.billionaire {
+    height:200px
+}
+
+.longtext {
+    font-size: 32px;
+    color:rebeccapurple !important;
+}
