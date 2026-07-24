@@ -2,7 +2,9 @@
 --geocities-font: Times, "Times New Roman", serif
 }
     
-
+.body {
+    font-smooth: never !important;
+}
 
 .reveal h1 {
     color: #00ff00;
@@ -14,7 +16,7 @@
 .reveal h2 {
     color: #ff0000;
     text-transform: none;
-    font-family: var(--geocities-font);
+    font-family: Papyrus;
     font-weight:normal;
 }
 
@@ -26,7 +28,8 @@
 
 .reveal p {
     color:aqua;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
 }
 
 .reveal li {
@@ -159,4 +162,16 @@ td {
 .longtext {
     font-size: 32px;
     color:rebeccapurple !important;
+}
+
+.generic-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+td {
+    color:white;
+    background-color:black;
+    font-size:20px;
 }
